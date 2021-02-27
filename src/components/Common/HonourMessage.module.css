@@ -1,0 +1,54 @@
+.honourMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  position: relative;
+  margin-top: 70px;
+  width: 362px;
+  
+  
+}
+.img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  vertical-align: middle;
+  position: absolute;
+  height: 122px;
+  width: 122px;
+  z-index: 1 !important;
+  
+}
+
+.message_box {
+  padding: 40px;
+  display: block;
+  margin: 15px 0px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 26%);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 26%);
+}
+.message_box h4 {
+  color: #c3d136;
+  margin-top: 50px;
+}
+.message_box h2 {
+  color: #c3d136;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+.message_box p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #333;
+  margin: 0 0 10px;
+  text-align: center;
+}

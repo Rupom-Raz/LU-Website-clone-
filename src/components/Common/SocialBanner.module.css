@@ -1,0 +1,16 @@
+.banner_section {
+  padding: 20px 20px;
+  -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 26%);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.26);
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 26%);
+}
+.banner_heading {
+  color: #c3d136;
+}
+.sub_heading{
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  
+  
+}
