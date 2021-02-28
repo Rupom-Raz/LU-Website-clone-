@@ -7,7 +7,7 @@ const LatestNews = ({ heading, news, img }) => {
     <>
       <div className="container">
         <div className="row py-5">
-          <div className="col-md-2 col-10 mx-auto ">
+          <div className="col-md-2 col-12 mx-auto ">
             <div className="img">
               <img className={classes.img} src={img} alt="" />
             </div>
@@ -18,6 +18,7 @@ const LatestNews = ({ heading, news, img }) => {
             <p className={classes.bref_news}>{news}</p>
 
             <button className={classes.btn}>Read More</button>
+            
           </div>
         </div>
       </div>

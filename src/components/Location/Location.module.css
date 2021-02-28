@@ -12,3 +12,10 @@
   font-weight: 400;
   margin: 20px 0px;
 }
+
+@media only screen and (max-width: 600px) {
+  .responsive_map{
+    width: 100%;
+
+  }
+}

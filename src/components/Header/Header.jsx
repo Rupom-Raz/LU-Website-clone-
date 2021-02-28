@@ -12,7 +12,7 @@ const Navbar = () => {
       <section className={classes.header}>
         <div className="container py-4">
           <div className="row">
-            <div className="col-md-6 col-10 mt-2">
+            <div className="col-md-6 col-10 mt-2 ">
               <div className="logo">
                 <Link to = "/">
                   <img className={classes.logo} src={logo} alt="" />

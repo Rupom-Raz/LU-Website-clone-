@@ -40,3 +40,8 @@
 .name_style{
     color: #C3D136;
 }
+@media only screen and (max-width: 600px) {
+    .dev_name{
+        line-height: 20px;
+    }
+}

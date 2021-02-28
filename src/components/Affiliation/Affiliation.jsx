@@ -20,44 +20,44 @@ const Affiliation = () => {
         <h4 className={classes.text}>Affliations</h4>
         <div className="row">
           <div className={classes.affiliate_section}>
-            <div className="col-md-12  d-flex Single_img">
-              <div className="col-md-2  ">
+            <div className="col-md-12 responsive ">
+              <div className="col-md-2 col-12 ">
                 <img className = {classes.img} src={Affiliation1} alt="" />
               </div>
-              <div className="col-md-2 ">
+              <div className="col-md-2 col-12 ">
                 <img className = {classes.img} src={Affiliation2} alt="" />
               </div>
-              <div className="col-md-2">
+              <div className="col-md-2 col-12">
                 <img className = {classes.img} src={Affiliation3} width  = "150px" alt="" />
               </div>
-              <div className="col-md-2">
+              <div className="col-md-2 col-12">
                 <img className = {classes.img} src={Affiliation4} alt="" />
               </div>
-              <div className="col-md-2">
+              <div className="col-md-2 col-12">
                 <img className = {classes.img} src={Affiliation5} alt="" />
               </div>
-              <div className="col-md-2">
+              <div className="col-md-2 col-12">
                 <img className = {classes.img} src={Affiliation6} alt="" />
               </div>
             </div>
 
-            <div className="col-md-12 d-flex">
-                <div className="col-md-2">
+            <div className="col-md-12 responsive ">
+                <div className="col-md-2 col-12">
                     <img className = {classes.img} src={Affiliation7}  width = "158px" alt=""/>
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 col-12">
                     <img className = {classes.img} src={Affiliation8} alt=""/>
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 col-12">
                     <img className = {classes.img} src={Affiliation9}   width = "150px" alt=""/>
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 col-12">
                     <img className = {classes.img} src={Affiliation10} alt=""/>
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 col-12">
                     <img className = {classes.img} src={Affiliation11} width = "150px" alt=""/>
                 </div>
-                <div className="col-md-2">
+                <div className="col-md-2 col-12">
                     <img className = {classes.img} src={Affiliation12} alt=""/>
                 </div>
             </div>

@@ -3,6 +3,7 @@
 .img{
     width: 153px;
     height: 151px;
+    margin-bottom: 10px;
 }
 
 .heading{
@@ -22,4 +23,11 @@
     border: none;
     outline: none;
 
+}
+
+@media only screen and (max-width: 600px) {
+    .img{
+        width: 100%;
+        
+    }
 }

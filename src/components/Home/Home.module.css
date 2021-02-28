@@ -72,6 +72,9 @@
   line-height: 33px;
   font-weight: 400;
 }
-.slider_pic {
-  z-index: -111 !important;
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin-left: 170px;
+    
+  }
 }

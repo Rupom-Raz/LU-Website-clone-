@@ -19,7 +19,7 @@ const Footer = () => {
       <section className = {classes.developer}>
           <div className="container">
               <div className="row">
-                  <div className="col-md-10 mx-auto">
+                  <div className="col-md-10 col-12 mx-auto">
                       <p className = {classes.dev_name} >Copyright 2021 Leading University, all rights reserved. Developed by <span className = {classes.name_style}>Rupom's Creation.</span></p>
                       <span className = {classes.copyright}>This site is maintained by CSE & IT Department.</span>
 

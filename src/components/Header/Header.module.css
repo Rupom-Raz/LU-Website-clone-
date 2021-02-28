@@ -12,3 +12,22 @@
   height: 69px;
   margin-top: 20px;
 }
+/* @media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+
+@media (min-width: 992px)
+.container {
+    width: 970px;
+} */
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-left: 140px;
+    object-fit: contain;
+  }
+
+  .name {
+    width: 95vw;
+  }
+}
