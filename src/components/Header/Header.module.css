@@ -1,14 +1,14 @@
 .header {
   background-color: #455a64;
-  height: 20%;
+  height: 15%;
   border-bottom: 1px solid rgb(56, 55, 55);
 }
 .logo {
   height: 110px;
-  width: 95px;
+  width: 98px;
 }
 .name {
-  width: 426px;
-  height: 80px;
+  width: 428px;
+  height: 69px;
   margin-top: 20px;
 }

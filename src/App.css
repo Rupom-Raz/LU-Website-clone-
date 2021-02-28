@@ -63,3 +63,6 @@
 .sticky{
   z-index: 9999 !important;
 }
+.navbar .menu-item-has-children > a::after {
+ 
+}

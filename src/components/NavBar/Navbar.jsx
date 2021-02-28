@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import classes from "./Navbar.module.css";
+import {  RiArrowDownSLine } from "react-icons/ri";
 
 const Navbar = () => {
   return (
@@ -46,7 +47,8 @@ const Navbar = () => {
                           className="nav-link"
                           to="/About"
                         >
-                          About Us
+                          About Us{" "}
+                          <RiArrowDownSLine className={classes.ArrowDown} />
                         </NavLink>
                       </li>
                       <li className="nav-item">
@@ -56,7 +58,8 @@ const Navbar = () => {
                           className="nav-link"
                           to="/Addmisson"
                         >
-                          Addmisson
+                          Addmisson{" "}
+                          <RiArrowDownSLine className={classes.ArrowDown} />
                         </NavLink>
                       </li>
 
@@ -77,7 +80,8 @@ const Navbar = () => {
                           className="nav-link"
                           to="/FacultyMembers"
                         >
-                          Faculty Members
+                          Faculty Members{" "}
+                          <RiArrowDownSLine className={classes.ArrowDown} />
                         </NavLink>
                       </li>
                       <li className="nav-item">
@@ -88,6 +92,7 @@ const Navbar = () => {
                           to="/Faculty"
                         >
                           Faculty
+                          <RiArrowDownSLine className={classes.ArrowDown} />
                         </NavLink>
                       </li>
                       <li className="nav-item">
@@ -98,6 +103,7 @@ const Navbar = () => {
                           to="/StudentPortal"
                         >
                           Student Portal
+                          <RiArrowDownSLine className={classes.ArrowDown} />
                         </NavLink>
                       </li>
                       <li className="nav-item">
