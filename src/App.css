@@ -67,12 +67,18 @@
 }
 
 .responsive_events {
-  padding: 40px ;
+  padding: 40px;
   -webkit-box-shadow: 3px 4px 15px -5px rgba(0, 0, 0, 0.62);
   -moz-box-shadow: 3px 4px 15px -5px rgba(0, 0, 0, 0.62);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.62);
+}
+
+.form-check-input[type=checkbox] {
+  border-radius: 0px !important
+  ;
  
 }
+
 @media only screen and (max-width: 600px) {
   .responsive {
     flex-direction: column;
@@ -81,5 +87,4 @@
   .responsive_events {
     flex-direction: column;
   }
- 
 }
