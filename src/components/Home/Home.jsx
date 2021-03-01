@@ -39,107 +39,97 @@ const Home = () => {
           <div className="row my-5">
             <div className="col-md-8 col-12 mt-2">
               {/* ************************* Slider Start Here **************************** */}
-              
-                <div
-                  id="carouselExampleCaptions"
-                  className="carousel slide "
-                  data-bs-ride="carousel"
-                >
-                  <div className="carousel-indicators">
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleCaptions"
-                      data-bs-slide-to="0"
-                      className="active"
-                      aria-current="true"
-                      aria-label="Slide 1"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleCaptions"
-                      data-bs-slide-to="1"
-                      aria-label="Slide 2"
-                    ></button>
-                    <button
-                      type="button"
-                      data-bs-target="#carouselExampleCaptions"
-                      data-bs-slide-to="2"
-                      aria-label="Slide 3"
-                    ></button>
-                  </div>
-                  <div className="carousel-inner">
-                    <div className="carousel-item active">
-                      <img
-                        className={classes.slider_pic}
-                        src={FacebookBanner}
-                        alt=""
-                      />
-                      <div className="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>
-                          Some representative placeholder content for the first
-                          slide.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className={classes.slider_pic}
-                        src={pic2}
-                        alt="..."
-                      />
-                      <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>
-                          Some representative placeholder content for the second
-                          slide.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="carousel-item">
-                      <img
-                        className={classes.slider_pic}
-                        src={pic3}
-                        alt="..."
-                      />
-                      <div className="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>
-                          Some representative placeholder content for the third
-                          slide.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+
+              <div
+                id="carouselExampleCaptions"
+                className="carousel slide "
+                data-bs-ride="carousel"
+              >
+                <div className="carousel-indicators">
                   <button
-                    className="carousel-control-prev"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev"
-                  >
-                    <span
-                      className="carousel-control-prev-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="visually-hidden">Previous</span>
-                  </button>
+                    data-bs-slide-to="0"
+                    className="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
                   <button
-                    className="carousel-control-next"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next"
-                  >
-                    <span
-                      className="carousel-control-next-icon"
-                      aria-hidden="true"
-                    ></span>
-                    <span className="visually-hidden">Next</span>
-                  </button>
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
                 </div>
-              
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img
+                      className={classes.slider_pic}
+                      src={FacebookBanner}
+                      alt=""
+                    />
+                    <div className="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>
+                        Some representative placeholder content for the first
+                        slide.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <img className={classes.slider_pic} src={pic2} alt="..." />
+                    <div className="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>
+                        Some representative placeholder content for the second
+                        slide.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="carousel-item">
+                    <img className={classes.slider_pic} src={pic3} alt="..." />
+                    <div className="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>
+                        Some representative placeholder content for the third
+                        slide.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  className="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    className="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Previous</span>
+                </button>
+                <button
+                  className="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span
+                    className="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="visually-hidden">Next</span>
+                </button>
+              </div>
 
               {/*************************** Slider end here *****************************/}
-
 
               {/*********************** Honurable message start here ***********************/}
               <section className="honourmessage">
@@ -291,7 +281,7 @@ const Home = () => {
 
               {/************ Social Banner start here *******************************/}
               <SocialBanner
-              className = {classes.facebookbanner}
+                className={classes.facebookbanner}
                 heading="Facebook"
                 link="https://www.facebook.com/leadinguniversity2001/"
                 img={FacebookBanner}
@@ -347,8 +337,7 @@ const Home = () => {
         <h4 className={classes.event_text}>Events</h4>
         <div className="row  ">
           <div className="col-md-4 col-12 d-flex mt-4  ">
-            <Events 
-            
+            <Events
               img={Eventespic1}
               topic="Webinar on Research to Start – Why and How?"
               date="25th January 2021"
